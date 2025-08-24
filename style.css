@@ -69,23 +69,25 @@ html, body{
     margin-top: 15px;
 }
 
-#links-container > .links{
-    background-color: hsl(0, 0%, 20%);
-    color: white;
-    font-weight: 600;
-    padding: 12px;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: 0.3s;
+#links-container a {
+  background-color: hsl(0, 0%, 20%);
+  color: white;
+  font-weight: 600;
+  padding: 12px;
+  border-radius: 10px;
+  text-decoration: none; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
 }
 
-#links-container > .links:hover{
-    cursor: pointer;
-    background-color: hsl(75, 94%, 57%);
-    color: #000;
+#links-container a:hover {
+  cursor: pointer;
+  background-color: hsl(75, 94%, 57%);
+  color: #000;
 }
+
 
 footer{
     text-align: center;
