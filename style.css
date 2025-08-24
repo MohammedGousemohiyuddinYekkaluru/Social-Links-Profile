@@ -86,3 +86,7 @@ html, body{
     background-color: hsl(75, 94%, 57%);
     color: #000;
 }
+
+footer{
+    text-align: center;
+}
